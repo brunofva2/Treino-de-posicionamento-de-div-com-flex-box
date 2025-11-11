@@ -1,0 +1,174 @@
+@font-face{
+    font-family: "RobotoCV";
+    src: url("fonts/Roboto/static/Roboto-Medium.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face{
+    font-family: "StackSans";
+    src: url("fonts/Stack_Sans_Text/static/StackSansText-ExtraLight.ttf");
+}
+/* Fim da importação de fontes */
+/* Inicio de formatação de fontes */
+.title,
+.subtitle {
+    font-family: "RobotoCv";
+    text-shadow: 0 2px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    font-family: "StackSans", sans-serif;
+}
+
+
+
+body{
+    background-color: #f8f8f8;
+    font-family: "StackSans", sans-serif;
+}
+
+
+
+
+/* inicio shadow box */
+.cv-wrapper{
+    max-width: 1000px;
+    margin: 60px auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+/* shadow box fim*/
+/* inicio do row */
+.row{
+   display: flex;
+    align-items: stretch;
+ 
+   gap: 25px;
+
+}
+
+.row-1 {
+    background-color: aliceblue;
+    flex: 0 0 30%;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.row-2 {
+    flex: 1;
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 25px;
+}
+/* fim do row */
+
+
+/* inicio da imagem */
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+img.pretinha{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+   
+}
+/* fim da imagem */
+
+
+
+/* inicio de nome, profissao e a descrição */
+
+.info-principal h1.title {
+    font-size: 2.2rem;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 5px ;
+    line-height: 1.1;
+}
+
+.info-principal h3.subtitle {
+    font-size: 1.2rem;
+    color: #007bff;
+     border-bottom: 1px solid rgba(0, 123, 255, 0.4);
+    font-weight: normal;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.info-principal p.paragraf {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+/* fim de nome, profissao e a descrição */
+
+
+
+
+
+/* inicio das informações da educação */
+.education h2, .skills h2.title, .interests h2.title {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 123, 255, 0.4);
+    padding-bottom: 5px;
+ 
+}
+/* fim da educação */
+
+
+/* Inicio da experiencia */
+.experience h2.title, .reference h2.title {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 15px;
+   border-bottom: 1px solid rgba(0, 123, 255, 0.4);
+}
+/*  subtitulos de faculdade, cargos e referencia tbm está incluso aqui */
+.subtitle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+/* paragrafos de conteudos e descrições */
+
+p.paragraf {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 5px;
+    
+}
+
+.education, .skills, .interests, .experience .item, .reference .item {
+    margin-bottom: 45px;
+}
+
+
+
+/* Rodapé */
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+    color: #666;
+    font-size: 0.85rem;
+    margin-top: 50px;
+    border-radius: 25px;
+}
